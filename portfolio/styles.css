@@ -1,0 +1,118 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #38495C;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info img {
+  width: 150px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.social-links a:hover {
+  color: #D2D6DC;
+}
+
+/* Skills */
+#skills {
+  background-color: #F8F9FA;
+  padding: 40px 0;
+}
+
+#skills h2 {
+  color: #38495C;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.skill i {
+  font-size: 40px;
+  color: #38495C;
+}
+
+.skill span {
+  margin-top: 10px;
+}
+
+/* Experience */
+#experience {
+  padding: 40px 0;
+}
+
+#experience h2 {
+  color: #38495C;
+  text-align: center;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.experience {
+  text-align: center;
+  margin: 10px;
+}
+
+.experience h3 {
+  color: #38495C;
+}
+
+.experience p {
+  color: #888;
+}
+
+/* Footer */
+footer {
+  background-color: #38495C;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
